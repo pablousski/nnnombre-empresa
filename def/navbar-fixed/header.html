@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <!-- símbolos SVG -->
+  <symbol id="check2" viewBox="0 0 16 16">
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
+  </symbol>
+  <!-- puedes dejar aquí todos tus símbolos originales -->
+</svg>
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="logo.png" alt="Logo Empresa" class="logo-empresa me-2">
+      <span>Nombre Empresa</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+        <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+        <li class="nav-item"><a class="nav-link" href="soluciones.html">Soluciones</a></li>
+        <li class="nav-item"><a class="nav-link" href="cotizaciones.html">Cotizaciones</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+      </ul><form class="d-flex" role="search" onsubmit="return buscarProducto()">
+  <input id="busqueda" class="form-control me-2" type="search" placeholder="Producto" aria-label="Search" />
+  <button class="btn btn-outline-success" type="submit">Buscar</button>
+</form>
+
+<style>
+.logo-empresa {
+  width: 50px;   /* ajusta el tamaño aquí */
+  height: auto;  /* mantiene proporción */
+}
+</style>

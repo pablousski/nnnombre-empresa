@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Astro v5.13.2" />
+    
+    <title>CONTACTO</title>
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/navbar-fixed/"
+    />
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <meta name="theme-color" content="#712cf9" />
+    <link href="navbar-fixed.css" rel="stylesheet" />
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: #3e3e3e1a;
+        border: solid rgba(152, 152, 152, 0.15);
+        border-width: 1px 0;
+        box-shadow:
+          inset 0 0.5em 1.5em #c3c3c31a,
+          inset 0 0.125em 0.5em #c2c2c226;
+      }
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+      .bd-mode-toggle .bi {
+        width: 1em;
+        height: 1em;
+      }
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+    </style>
+  </head>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <div id="header"></div>
+  
+<!-- Header -->
+<script>
+  fetch("header.html")
+    .then(res => res.text())
+    .then(data => document.getElementById("header").innerHTML = data);
+</script>
+<script src="header.js"></script>
+
+<html lang="es" data-bs-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Astro v5.13.2" />
+    <title>Album example · Bootstrap v5.3</title>
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/album/"
+    />
+    <script src="../assets/js/color-modes.js"></script>
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <meta name="theme-color" content="#712cf9" />
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: #ffffff1a;
+        border: solid rgba(0, 0, 0, 0.15);
+        border-width: 1px 0;
+        box-shadow:
+          inset 0 0.5em 1.5em #6c6c6c41,
+          inset 0 0.125em 0.5em #00000026;
+      }
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    </style>
+      </head>
+        <body>
+          <main>
+                <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Contáctanos</h1>
+            <p class="lead text-body-secondary">
+              Estamos listos para ayudarte con tus proyectos eléctricos y de automatización
+            </p>
+            <p>
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+
+<!-- Formulario de Contacto -->
+
+<style>
+.form-contacto {
+  max-width: 400px;
+  padding: 15px;
+}
+.form-contacto .form-floating:focus-within {
+  z-index: 2;
+}
+</style>
+
+<section class="form-contacto w-100 m-auto">
+
+<form onsubmit="sendMail(); return false;">
+
+<h1 class="h3 mb-3 fw-normal text-center">¿En qué podemos ayudarte?</h1>
+
+<div class="form-floating mb-3">
+<select id="servicio" class="form-select">
+<option value="Cotización">Cotización</option>
+<option value="Asesoría Técnica">Asesoría Técnica</option>
+<option value="Instalación">Instalación</option>
+<option value="Mantención">Mantención</option>
+</select>
+<label for="servicio">Tipo de servicio</label>
+</div>
+
+<div class="form-floating mb-3">
+<input type="text" class="form-control" id="nombre" placeholder="Juan Pérez">
+<label for="nombre">Nombre y Apellido</label>
+</div>
+
+<div class="form-floating mb-3">
+<input type="tel" class="form-control" id="numero" placeholder="+56 678914567">
+<label for="numero">Número de telófono</label>
+</div>
+
+<div class="form-floating mb-3">
+<input type="email" class="form-control" id="correo" placeholder="juan@empresa.com">
+<label for="correo">Correo electrónico</label>
+</div>
+ <textarea class="form-control" placeholder="Mensaje" id="mensajee" style="height:100px"></textarea>
+  <label for="mensajee"></label><br></label>
+</div>
+
+<button class="btn btn-success w-100 py-2" type="submit">
+Enviar Consulta
+</button>
+
+<p class="mt-4 mb-3 text-body-secondary text-center">2026</p>
+
+</form>
+
+</section>
+
+<script>
+
+function sendMail() {
+
+const servicio = document.getElementById("servicio").value;
+const nombre = document.getElementById("nombre").value;
+const numero = document.getElementById("numero").value;
+const correo = document.getElementById("correo").value;
+const mensajee = document.getElementById("mensajee").value;
+
+const subject = "Solicitud de información";
+
+const body = `Servicio: ${servicio}%0A
+Nombre: ${nombre}%0A
+Teléfono: ${numero}%0A
+Correo: ${correo}%0A
+Mensaje: ${mensajee}`;
+
+window.location.href = `mailto:vial.beas.4@gmail.com?subject=${subject}&body=${body}`;
+
+}
+
+</script>
+
+
+<!-- Abajo Footer -->
+
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <div class="b-example-divider"></div>
+    <div class="container">
+      <footer class="py-5">
+        <div id="footer"></div>
+
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+</script>
+
+      </footer>
+    </div>
+    <script
+      src="../assets/dist/js/bootstrap.bundle.min.js"
+      class="astro-vvvwv3sm"
+    ></script>
+  </body>
+</html>
+
+<div id="footer"></div>
+
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+</script>
+<div id="footer"></div>
+
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+</script>
+<div id="footer"></div>
+
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+</script>
+<div id="footer"></div>
+<div id="mensaje"></div>
+
+<script>
+  // Cargar footer
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+
+  // Cargar botón WhatsApp
+  fetch("mensaje.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("mensaje").innerHTML = data;
+    });
+</script>

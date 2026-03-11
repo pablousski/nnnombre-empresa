@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Astro v5.13.2" />
+    
+    <title>COTIZACIONES</title>
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/navbar-fixed/"
+    />
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <meta name="theme-color" content="#712cf9" />
+    <link href="navbar-fixed.css" rel="stylesheet" />
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: #3e3e3e1a;
+        border: solid rgba(152, 152, 152, 0.15);
+        border-width: 1px 0;
+        box-shadow:
+          inset 0 0.5em 1.5em #c3c3c31a,
+          inset 0 0.125em 0.5em #c2c2c226;
+      }
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+      .bd-mode-toggle .bi {
+        width: 1em;
+        height: 1em;
+      }
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+    </style>
+  </head>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <div id="header"></div>
+  
+<!-- Header -->
+<script>
+  fetch("header.html")
+    .then(res => res.text())
+    .then(data => document.getElementById("header").innerHTML = data);
+</script>
+<script src="header.js"></script>
+
+<html lang="es" data-bs-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Astro v5.13.2" />
+    <title>Album example · Bootstrap v5.3</title>
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/album/"
+    />
+    <script src="../assets/js/color-modes.js"></script>
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <meta name="theme-color" content="#712cf9" />
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: #ffffff1a;
+        border: solid rgba(0, 0, 0, 0.15);
+        border-width: 1px 0;
+        box-shadow:
+          inset 0 0.5em 1.5em #6c6c6c41,
+          inset 0 0.125em 0.5em #00000026;
+      }
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    </style>
+      </head>
+        <body>
+          <main>
+                <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Cotización rápida</h1>
+            <p class="lead text-body-secondary">
+              Indícanos el producto que buscas. Puedes adjuntar imágenes o PDF.
+            </p>
+            <p>
+            </p>
+          </div>
+        </div>
+      </section>
+<!-- Album -->
+
+      <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="contactores.avif" 
+    class="card-img-top" 
+    alt="Imagen de contactores" 
+    width="100%" 
+    height="225">
+                <div class="card-body">
+                  <p class="card-text">
+                    <h5>Contactores</h5>
+                    Productos de alta calidad para aplicaciones industriales.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+  <a class="nav-link" href="contactores.html">Ver Detalle</a>
+                      </button>
+                      
+                    </div>
+                    <small class="text-body-secondary">.</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="variadores.avif" 
+    class="card-img-top" 
+    alt="Imagen de contactores" 
+    width="100%" 
+    height="225">
+                <div class="card-body">
+                  <p class="card-text">
+                    <h5>Variadores de Frecuencia</h5>
+                    Productos de alta calidad para aplicaciones industriales.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+  <a class="nav-link" href="variadores.html">Ver Detalle</a>
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">.</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="motores.avif" 
+    class="card-img-top" 
+    alt="Imagen de contactores" 
+    width="100%" 
+    height="225">
+                <div class="card-body">
+                  <p class="card-text">
+                    <h5>Motores Eléctricos</h5>
+                    Productos de alta calidad para aplicaciones industriales.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+  <a class="nav-link" href="motores.html">Ver Detalle</a>
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">.</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="tableros.avif" 
+    class="card-img-top" 
+    alt="Imagen de contactores" 
+    width="100%" 
+    height="225">
+                <div class="card-body">
+                  <p class="card-text">
+                    <h5>Tableros Eléctricos</h5>
+                    Productos de alta calidad para aplicaciones industriales.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+  <a class="nav-link" href="tableros.html">Ver Detalle</a>
+                      </button>
+                      
+                    </div>
+                    <small class="text-body-secondary">.</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="automatización.avif" 
+    class="card-img-top" 
+    alt="Imagen de contactores" 
+    width="100%" 
+    height="225">
+                <div class="card-body">
+                  <p class="card-text">
+                    <h5>Automatización industrial</h5>
+                    Productos de alta calidad para aplicaciones industriales.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+  <a class="nav-link" href="automatizacion.html">Ver Detalle</a>
+                      </button>
+                    </div>
+                    <small class="text-body-secondary">.</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="protecciones.avif" 
+    class="card-img-top" 
+    alt="Imagen de contactores" 
+    width="100%" 
+    height="225">
+                <div class="card-body">
+                  <p class="card-text">
+                    <h5>Protecciones eléctricas</h5>
+                    Productos de alta calidad para aplicaciones industriales.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <div class="btn-group">
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-outline-secondary"
+                      >
+  <a class="nav-link" href="protecciones.html">Ver Detalle</a>
+                      </button>
+                      
+                    </div>
+                    <small class="text-body-secondary">.</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+<!-- Sección banner -->
+
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Encuentra tus productos fácilmente</h1>
+            <p class="lead text-body-secondary">
+              Utiliza los filtros para encontrar productos por marca,
+              tipo o categoría. También puedes buscar por nombre, 
+              código o palabra clave.
+            </p>
+          </div>
+        </div>
+      </section>
+
+<!-- Grid Carousel -->
+
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <div class="b-example-divider"></div>
+    <div class="container-fluid">
+        <div class="container py-5">
+  <div class="row">
+    <div class="col-md-7">
+  <h1 class="display-2 fw-bold text-slate-600">
+    Somos expertos en 
+    <span class="text-body-secondary">soluciones eléctricas industriales y automatización.</span>
+  </h1>
+  <p class="fs-4">
+  Contamos con las mejores marcas del mercado para satisfacer y darle solución técnica y profesional en mantenciones, revisiones, normalizaciones y mejoras de sistemas.
+</p>
+</div>
+<div class="col-md-5">
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="proveedores.avif" class="d-block w-100" alt="Motores">
+        <div class="carousel-caption" style="bottom: -20px;">
+  <p class="bg-dark text-white rounded px-3 py-2 d-inline-block">
+    <b>Proveedores de grandes industrias</b><br>
+    <small>Prestamos servicios como proveedores certificados de Codelco, TPS Valparaíso, y más.</small>
+  </p>
+</div>
+
+      </div>
+      <div class="carousel-item">
+        <img src="control.avif" class="d-block w-100" alt="Variadores">
+        <div class="carousel-caption" style="bottom: -20px;">
+  <p class="bg-dark text-white rounded px-3 py-2 d-inline-block">
+    <b>Control y Maniobra</b><br>
+    <small>Contamos con contactores, pulsadores, relés y más para maniobras eléctricas seguras y eficientes. Ideal para tableros de control industrial.</small>
+  </p>
+</div>
+</div>
+      <div class="carousel-item">
+        <img src="motoress.avif" class="d-block w-100" alt="Variadores">
+        <div class="carousel-caption" style="bottom: -20px;">
+  <p class="bg-dark text-white rounded px-3 py-2 d-inline-block">
+    <b>Motores y Variadores</b><br>
+    <small>Amplia gama de motores eléctricos y variadores para control de velocidad y rendimiento en aplicaciones industriales. Asesoría técnica disponible.</small>
+  </p>
+</div>
+</div>
+      <div class="carousel-item">
+        <img src="reductores.avif" class="d-block w-100" alt="Variadores">
+        <div class="carousel-caption" style="bottom: -20px;">
+  <p class="bg-dark text-white rounded px-3 py-2 d-inline-block">
+    <b>Reductores de velocidad</b><br>
+    <small>Soluciones robustas en reducción de velocidad y transmisión mecánica. Motorreductores para aplicaciones agrícolas, mineras e industriales.</small>
+  </p>
+</div>
+      </div>
+      <div class="carousel-item">
+        <img src="proteccioness.avif" class="d-block w-100" alt="Tableros">
+        <div class="carousel-caption" style="bottom: -20px;">
+  <p class="bg-dark text-white rounded px-3 py-2 d-inline-block">
+    <b>Protecciones Eléctricas</b><br>
+    <small>Protege tus equipos con interruptores automáticos, relés térmicos y diferenciales. Elementos certificados para seguridad eléctrica en todos tus proyectos.</small>
+  </p>
+</div>
+      </div>
+    </div>
+
+    <!-- Botones de navegación -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+</div>
+
+          </div>
+          </div>
+        </div>
+
+<!-- Abajo Footer -->
+
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <div class="b-example-divider"></div>
+    <div class="container">
+      <footer class="py-5">
+        <div id="footer"></div>
+
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+</script>
+
+      </footer>
+    </div>
+    <script
+      src="../assets/dist/js/bootstrap.bundle.min.js"
+      class="astro-vvvwv3sm"
+    ></script>
+  </body>
+</html>
+
+<div id="footer"></div>
+
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+</script>
+<div id="footer"></div>
+
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+</script>
+<div id="footer"></div>
+
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+</script>
+<div id="footer"></div>
+<div id="mensaje"></div>
+
+<script>
+  // Cargar footer
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+
+  // Cargar botón WhatsApp
+  fetch("mensaje.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("mensaje").innerHTML = data;
+    });
+</script>

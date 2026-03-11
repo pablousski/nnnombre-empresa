@@ -1,0 +1,39 @@
+/* Show it is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;   /* distancia desde abajo */
+  left: 20px;     /* distancia desde la izquierda */
+  z-index: 1000;  /* siempre encima */
+}
+
+.whatsapp-float img {
+  width: 90px;    /* tamaño del ícono */
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-float img:hover {
+  transform: scale(1.1); /* efecto al pasar el mouse */
+}
+.navbar {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+.carousel-item img {
+  height: 600px; /* ajusta el valor según lo que quieras */
+  object-fit: cover; /* mantiene proporción y recorta si es necesario */
+}
+.custom-title {
+  font-size: 2.25rem;   /* equivalente a text-4xl */
+}
+
+@media (min-width: 1024px) {
+  .custom-title {
+    font-size: 3.75rem; /* equivalente a lg:text-6xl */
+  }
+}
+.text-purple { color: #6f42c1; }

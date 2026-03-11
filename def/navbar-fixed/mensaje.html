@@ -1,0 +1,29 @@
+<!-- mensaje.html (parcial) -->
+<!--
+  Este archivo contiene únicamente el botón flotante de WhatsApp
+  junto con su estilo. No es una página HTML completa, por eso al
+  abrirlo con Live Server se ve el texto en lugar de un documento
+  normal. Inclúyelo siempre dentro de otra página (p.ej. contacto)
+  copiando el <a> y el <style> o cargándolo con un `fetch`/include.
+-->
+
+<a href="https://wa.me/56942341627" class="whatsapp-float" target="_blank">
+  <img src="mensaje.png" alt="WhatsApp" />
+</a>
+
+<style>
+.whatsapp-float {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+}
+.whatsapp-float img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: none;
+}
+</style>

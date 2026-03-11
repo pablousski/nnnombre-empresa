@@ -1,0 +1,726 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+  
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Astro v5.13.2" />
+    
+    <title>NOSOTROS
+    </title>
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/navbar-fixed/"
+    />
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <meta name="theme-color" content="#712cf9" />
+    <link href="navbar-fixed.css" rel="stylesheet" />
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: #3e3e3e1a;
+        border: solid rgba(152, 152, 152, 0.15);
+        border-width: 1px 0;
+        box-shadow:
+          inset 0 0.5em 1.5em #c3c3c31a,
+          inset 0 0.125em 0.5em #c2c2c226;
+      }
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+      .bd-mode-toggle .bi {
+        width: 1em;
+        height: 1em;
+      }
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+    </style>
+  </head>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <div id="header"></div>
+  
+<!-- Header -->
+<script>
+  fetch("header.html")
+    .then(res => res.text())
+    .then(data => document.getElementById("header").innerHTML = data);
+</script>
+<script src="header.js"></script>
+
+<html lang="es" data-bs-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Astro v5.13.2" />
+    <title>Album example · Bootstrap v5.3</title>
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/album/"
+    />
+    <script src="../assets/js/color-modes.js"></script>
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <meta name="theme-color" content="#712cf9" />
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: #ffffff1a;
+        border: solid rgba(0, 0, 0, 0.15);
+        border-width: 1px 0;
+        box-shadow:
+          inset 0 0.5em 1.5em #6c6c6c41,
+          inset 0 0.125em 0.5em #00000026;
+      }
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    </style>
+      </head>
+        <body>
+  <main>
+    <!-- Sección ¿Quiénes Somos -->
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-8 mx-auto">
+          <h1 class="display-2 fw-bold text-slate-600">
+            ¿Quiénes Somos?
+          </h1>
+          <p class="lead text-body-secondary">
+            Conoce la historia, valores y compromiso que nos han convertido en líderes del sector eléctrico industrial
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Historia -->
+    <div class="container my-5">
+      <div class="row featurette align-items-center">
+        <!-- Texto -->
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-bold lh-1 mb-4">
+            Nuestra Historia <span class="text-body-secondary">Noviembre 1999</span>
+          </h2>
+
+          <p class="lead mb-4">
+            <strong>"EQUILEC LTDA."</strong> se crea en noviembre de 1999, con la finalidad de entregar
+            un servicio integral en el suministro de productos eléctricos al detalle. 
+            Con posterioridad se amplía esta concepción incluyéndose entonces fabricación 
+            de tableros de control, luminotecnia e Ingeniería.
+          </p>
+
+          <p class="lead mb-4">
+            Nuestros productos y servicios están dirigidos al <strong>sector industrial y agrícola</strong>,
+            siendo entre otros, tableros de comando, suministros para iluminación, materiales 
+            y accesorios de control y misceláneos eléctricos.
+          </p>
+
+          <p class="lead">
+            La política de la empresa ha sido desde un comienzo <strong>facilitar la gestión de nuestros 
+            clientes</strong>, asegurándoles la calidad del producto, el respaldo y la entrega oportuna.
+            Ello nos ha permitido consolidar una relación de mutuo beneficio con importantes empresas, 
+            todas ellas partícipes del desarrollo tecnológico del país en sus respectivas áreas.
+          </p>
+        </div>
+
+        <!-- Imagen -->
+        <div class="col-md-5 text-center">
+          <img
+            src="nuestra_historia.avif"
+            alt="Nuestra historia"
+            class="img-fluid rounded"
+            width="500"
+            height="500"
+          />
+        </div>
+      </div>
+    </div>
+  </main>
+<!-- Sección banner -->
+<section class="py-5 text-center container">
+  <div class="row py-lg-5">
+    <div class="col-lg-6 col-md-8 mx-auto">
+      <h1 class="fw-light"><strong>Nuestro Compromiso</strong></h1>
+      <p class="lead text-body-secondary">
+        Enfrentamos los nuevos tiempos manteniéndonos en la vanguardia tecnológica.
+      </p>
+    </div>
+  </div> <!-- cierre de row -->
+</section> <!-- cierre de section -->
+
+<!-- Sección de tarjetas -->
+<div class="container my-5">
+  <div class="row text-center">
+    <!-- Card 1 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm border-0">
+        <div class="card-body">
+          <div style="color: green;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 class="lucide lucide-check">
+              <path d="M20 6L9 17l-5-5"/>
+            </svg>
+          </div>
+          <h5 class="fw-bold">Calidad Garantizada</h5>
+          <p class="text-muted">
+            Aseguramos la calidad del producto y el respaldo en cada entrega
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm border-0">
+        <div class="card-body">
+          <div style="color: green;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 class="lucide lucide-check">
+              <path d="M20 6L9 17l-5-5"/>
+            </svg>
+          </div>
+          <h5 class="fw-bold">Socios Estratégicos</h5>
+          <p class="text-muted">
+            Somos un soporte y socio estratégico para nuestros clientes
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm border-0">
+        <div class="card-body">
+          <div style="color: green;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+                 viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                 class="lucide lucide-check">
+              <path d="M20 6L9 17l-5-5"/>
+            </svg>
+          </div>
+          <h5 class="fw-bold">Excelencia</h5>
+          <p class="text-muted">
+            Experiencia, exigencia de calidad y rigurosa selección de productos
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Encajonado -->
+
+<div class="my-5">
+  <div class="card mx-auto shadow-sm border-0" style="max-width: 600px;">
+    <div class="card-body text-center">
+      <p class="h4 mb-0">
+  <strong>Visión de Futuro</strong>
+</p>
+<br>
+      <p class="lead mb-0">
+        Conscientes de los desafíos inherentes al desarrollo tecnológico, nos proponemos enfrentar los nuevos tiempos manteniéndonos siempre en la vanguardia tecnológica y siendo a la vez un soporte y un socio estratégico para con nuestros clientes y de esta manera enfrentar con éxito el porvenir y contribuir al desarrollo de Chile.
+      </p>
+      <br>
+      <p class="text-muted">
+      "Estamos seguros de que la experiencia de nuestro personal, nuestra exigencia de calidad y la rigurosa selección de productos nos permitirán entregar un servicio de excelencia en las diferentes áreas que ponemos, desde ya, a su disposición." <strong>- Equilec Limitada </strong> </p>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Grid Carousel -->
+
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <div class="b-example-divider"></div>
+    <div class="container-fluid">
+        <div class="container py-5">
+  <div class="row">
+
+<!-- Sección banner -->
+
+      <section class="py-3 text-center container">
+        <div class="row py-lg-3">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Nuestras Marcas</h1>
+            <p class="lead text-body-secondary">
+              Trabajamos con las marcas más reconocidas y confiables del mercado eléctrico industrial
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+<!-- Sección de tarjetas -->
+  <div class="row text-center">
+    <!-- Card 1 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm border-0">
+        <div class="card-body">
+          <div style="color: green;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+      viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      class="lucide lucide-star">
+    <polygon points="12 2 15 8.5 22 9.3 17 14 18.5 21 12 17.8 5.5 21 7 14 2 9.3 9 8.5 12 2"/>
+  </svg>
+</div>
+
+          <h5 class="fw-bold">8+</h5>
+          <p class="text-muted">
+            Marcas Premium
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm border-0">
+        <div class="card-body">
+          <div style="color: green;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+      viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      class="lucide lucide-star">
+    <polygon points="12 2 15 8.5 22 9.3 17 14 18.5 21 12 17.8 5.5 21 7 14 2 9.3 9 8.5 12 2"/>
+  </svg>
+</div>
+
+          <h5 class="fw-bold">25+</h5>
+          <p class="text-muted">
+            Años de Experiencia
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow-sm border-0">
+        <div class="card-body">
+          <div style="color: green;">
+  <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"
+      viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      class="lucide lucide-star">
+    <polygon points="12 2 15 8.5 22 9.3 17 14 18.5 21 12 17.8 5.5 21 7 14 2 9.3 9 8.5 12 2"/>
+  </svg>
+</div>
+
+          <h5 class="fw-bold">100%</h5>
+          <p class="text-muted">
+            Productos Certificados
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- serie de marcas -->
+
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"
+        >
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                CHINT
+              </h3>
+              <p>
+                Líder mundial en automatización industrial y control.
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use xlink:href="#cpu-fill"></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                SIEMENS
+              </h3>
+              <p>
+                Motores eléctricos y variadores de frecuencia
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use xlink:href="#calendar3"></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                EATON
+              </h3>
+              <p>
+                Soluciones de gestión de energía y automatización
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use xlink:href="#home"></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                WEG
+              </h3>
+              <p>
+                Infraestructuras eléctricas y digitales
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use xlink:href="#speedometer2"></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Schneider
+              </h3>
+              <p>
+                Soluciones de control industrial
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use xlink:href="#toggles2"></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                ABB
+              </h3>
+              <p>
+                Tecnología de conexión industrial
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use xlink:href="#geo-fill"></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                TECO
+              </h3>
+              <p>
+                Sistemas de envolventes y climatización
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              width="1.75em"
+              height="1.75em"
+              aria-hidden="true"
+            >
+              <use xlink:href="#tools"></use>
+            </svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                INNOMOTICS
+              </h3>
+              <p>
+                Sistemas de envolventes y climatización
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="b-example-divider"></div>
+      <div class="container px-4 py-5">
+
+<!-- Formulario de Contacto -->
+
+<style>
+.form-contacto {
+  max-width: 400px;
+  padding: 15px;
+}
+.form-contacto .form-floating:focus-within {
+  z-index: 2;
+}
+</style>
+
+<section class="form-contacto w-100 m-auto">
+
+<form onsubmit="sendMail(); return false;">
+
+<h1 class="h3 mb-3 fw-normal text-center">¿En qué podemos ayudarte?</h1>
+
+<div class="form-floating mb-3">
+<select id="servicio" class="form-select">
+<option value="Cotización">Cotización</option>
+<option value="Asesoría Técnica">Asesoría Técnica</option>
+<option value="Instalación">Instalación</option>
+<option value="Mantención">Mantención</option>
+</select>
+<label for="servicio">Tipo de servicio</label>
+</div>
+
+<div class="form-floating mb-3">
+<input type="text" class="form-control" id="nombre" placeholder="Juan Pérez">
+<label for="nombre">Nombre y Apellido</label>
+</div>
+
+<div class="form-floating mb-3">
+<input type="tel" class="form-control" id="numero" placeholder="+56 678914567">
+<label for="numero">Número de telófono</label>
+</div>
+
+<div class="form-floating mb-3">
+<input type="email" class="form-control" id="correo" placeholder="juan@empresa.com">
+<label for="correo">Correo electrónico</label>
+</div>
+ <textarea class="form-control" placeholder="Mensaje" id="mensajee" style="height:100px"></textarea>
+  <label for="mensajee"></label>
+
+<button class="btn btn-success w- d-block mx-auto py-1" type="submit">
+Enviar Consulta
+</button>
+
+<p class="mt-4 mb-3 text-body-secondary text-center">2026</p>
+
+</form>
+
+</section>
+
+<script>
+
+function sendMail() {
+
+const servicio = document.getElementById("servicio").value;
+const nombre = document.getElementById("nombre").value;
+const numero = document.getElementById("numero").value;
+const correo = document.getElementById("correo").value;
+const mensajee = document.getElementById("mensajee").value;
+
+const subject = "Solicitud de información";
+
+const body = `Servicio: ${servicio}%0A
+Nombre: ${nombre}%0A
+Teléfono: ${numero}%0A
+Correo: ${correo}%0A
+Mensaje: ${mensajee}`;
+
+window.location.href = `mailto:vial.beas.4@gmail.com?subject=${subject}&body=${body}`;
+
+}
+
+</script>
+
+    <div class="col-md-7">
+  <h1 class="display-2 fw-bold text-slate-600">
+    
+  </div>
+</div>
+
+          </div>
+          </div>
+        </div>
+
+<!-- Abajo Footer -->
+
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <div class="b-example-divider"></div>
+    <div class="container">
+      <footer class="py-5">
+        <div id="footer"></div>
+
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+</script>
+
+      </footer>
+    </div>
+    <script
+      src="../assets/dist/js/bootstrap.bundle.min.js"
+      class="astro-vvvwv3sm"
+    ></script>
+  </body>
+</html>
+
+<div id="footer"></div>
+
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+</script>
+<div id="footer"></div>
+
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+</script>
+<div id="footer"></div>
+
+<script>
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+</script>
+<div id="footer"></div>
+<div id="mensaje"></div>
+
+<script>
+  // Cargar footer
+  fetch("footer.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("footer").innerHTML = data;
+    });
+
+  // Cargar botón WhatsApp
+  fetch("mensaje.html")
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById("mensaje").innerHTML = data;
+    });
+</script>
